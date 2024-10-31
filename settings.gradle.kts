@@ -1,2 +1,2 @@
-rootProject.name = "java_practic_1"
+rootProject.name = "java_practice_1"
 
