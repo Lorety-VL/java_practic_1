@@ -1,0 +1,12 @@
+ext.pathMapper = [:]
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/plugins/gradle/lib/gradle-tooling-extension-api.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/plugins/gradle/lib/gradle-tooling-extension-api.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/lib/external-system-rt.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/lib/external-system-rt.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/plugins/gradle/lib/gradle-tooling-extension-impl.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/plugins/gradle/lib/gradle-tooling-extension-impl.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/plugins/gradle/lib/gradle-api-8.5.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/plugins/gradle/lib/gradle-api-8.5.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/lib/opentelemetry.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/lib/opentelemetry.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/plugins/Kotlin/lib/kotlin-gradle-tooling.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/plugins/Kotlin/lib/kotlin-gradle-tooling.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/lib/util-8.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/lib/util-8.jar')
+ext.pathMapper.put('C:/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/lib/util_rt.jar', '/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2023.3.3/lib/util_rt.jar')
+ext.pathMapper.put('C:/Users/INVADER/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/com.jetbrains.packagesearch.intellij-plugin/lib/gradle-tooling.jar', '/mnt/c/Users/INVADER/AppData/Roaming/JetBrains/IdeaIC2024.1/plugins/com.jetbrains.packagesearch.intellij-plugin/lib/gradle-tooling.jar')
+ext.pathMapper.put("<<target java executable path>>", '/home/vladimir/.asdf/installs/java/openjdk-21/bin/java')
+ext.mapPath = { path -> pathMapper.get(path) ?: path }
